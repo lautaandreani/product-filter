@@ -1,7 +1,4 @@
 import { Product, db } from '.'
-import * as dotenv from 'dotenv'
-
-dotenv.config()
 
 const getRandomPrice = () => {
   const PRICES = [9.99, 19.99, 29.99, 39.99, 49.99]
