@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "seed": "pnpm tsx ./src/db/seed.ts"
+    "seed": "pnpm tsx ./src/db/seed.ts",
+    "pages:build": "npx @cloudflare/next-on-pages"
   },
   "dependencies": {
     "@radix-ui/react-accordion": "^1.1.2",
