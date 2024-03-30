@@ -1,3 +1,5 @@
+export const runtime = 'edge'
+
 import { db } from '@/db'
 import { ProductFilterValidator } from '@/lib/validators/product-validator'
 import { NextRequest } from 'next/server'
